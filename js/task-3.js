@@ -2,12 +2,7 @@
 
 function checkForSpam(message) {
     const lowercasedMessage = message.toLowerCase();
-return lowercasedMessage.includes("спам") || lowercasedMessage.includes("розпродаж");
-    
-    
-    
-    
-    
+    return lowercasedMessage.includes(`spam`.toLowerCase()) || lowercasedMessage.includes(`sale`.toLowerCase());
 }
 
 
