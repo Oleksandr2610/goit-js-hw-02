@@ -3,7 +3,7 @@
 function formatMessage(message, maxLength) {
     let retMessage;
     if (message.length <= maxLength) {
-        retMessage = message
+       retMessage = message
     } else {
         retMessage = `${ message.slice(0, maxLength) }...`
     }
